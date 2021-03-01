@@ -41,7 +41,7 @@ namespace TesteUnitario
             {
                 resultado = ' ';
             }
-            Assert.IsTrue(resultado != ' ');
+            Assert.IsTrue(resultado == ' ');
         }
     }
 }
